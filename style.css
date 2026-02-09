@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f3f3f3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Gemini_Generated_Image_gl2n44gl2n44gl2n.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background: #faf7f4;
+  padding: 60px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.card {
+  background: #fff;
+  padding: 40px 32px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.field {
+  text-align: left;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: #2ecc71;
+}
+
+.error {
+  font-size: 12px;
+  color: #e74c3c;
+  display: none;
+  margin-top: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  background: #f07c2b;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:hover {
+  background: #e46f20;
+}
+
+#resultMessage {
+  color: #e46f20;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}

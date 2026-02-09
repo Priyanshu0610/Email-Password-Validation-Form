@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login – Red</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Lets<br />Start Learning</h2>
+        <p class="subtitle">Validate Email</p>
+
+        <form novalidate id="card">
+          <div class="field">
+            <input type="text" id="email" placeholder="Your Email" />
+            <span class="error" id="emailError"></span>
+          </div>
+
+          <div class="field">
+            <input type="password" id="password" placeholder="Your Password" />
+            <span class="error" id="passwordError"></span>
+          </div>
+
+          <button type="submit">Validate</button>
+          <div id="resultMessage"></div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
